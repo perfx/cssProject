@@ -1,0 +1,27 @@
+$flashMessageBorderRadius: 5px;
+
+.flashMessage {
+    padding: $halfGutter;
+    background: #E22C1A;
+    color: #fff;
+    border-radius: $flashMessageBorderRadius;
+    border: 1px solid #B0383B;
+    margin-bottom: 10px;
+}
+.flashMessage p {
+    vertical-align: middle;
+}
+.flashMessage span {
+    vertical-align: middle;
+}
+
+.flashMessage-note {
+    color: #999;
+    background: #ffeebd;
+    border-color: #FFBB1A;
+}
+.flashMessage-success {
+    color: #fff;
+    background: lightgreen;
+    border-color: #FFBB1A;
+}
